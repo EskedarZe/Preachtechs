@@ -33,7 +33,8 @@ public class TestCase3 {
 		driver.findElement(By.xpath("(//button[@class='x-btn-text'])[7]")).click();
 		//need to capture lead ID
 		//  Click on first resulting lead
-		driver.findElement(By.xpath("((//div[@class='x-grid3-cell-inner x-grid3-col-firstName'])[2])/a")).click();
+		//driver.findElement(By.xpath("((//div[@class='x-grid3-cell-inner x-grid3-col-firstName'])[2])/a")).click();
+		driver.findElement(By.xpath("((//div[@class='x-grid3-cell-inner x-grid3-col-partyId'])[1])/a")).clear();
 		
 		
 	}
